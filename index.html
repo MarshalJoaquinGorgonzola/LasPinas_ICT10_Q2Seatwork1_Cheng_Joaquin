@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+    <title>Q2 Seatwork 1</title>
+    <style>
+        body{
+            font-family:'Courier New', Courier, monospace;
+            text-align: center;
+            margin-top: 80px;
+            background-color: rgb(255, 0, 0)
+        }
+        .container{
+            background-color: white;
+            padding: 50px;
+            width: 300px;
+            margin:auto;
+            border: 3px solid white;
+        }
+        input{
+            padding:6px;
+            width: 80%;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="reactor"> </div>
+        <h1> CLUB CHECKER </h1>
+        <p> Candidate Verification Checker </p>
+    </header>
+    <main>
+        <form>
+            <input type="text" id="f_name" placeholder="Enter Your First Name"> <br>
+            <input type="text" id="l_name" placeholder="Enter Your Last Name"> <br>
+            <input type="button" py-click="candidate_checker" value="Enter">
+        </form>
+    </main>
+    <footer>
+        &copy; 2026 <span> ICT Club </span> &bull; Seatwork 2 &bull; Second Quarter
+    </footer>
+
+    <py-script src="main.py"></py-script>
+</body>
+</html>
