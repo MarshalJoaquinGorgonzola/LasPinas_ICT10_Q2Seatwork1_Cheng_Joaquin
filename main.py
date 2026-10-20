@@ -12,6 +12,6 @@ def candidate_checker(e):
     member_checker = candidate.lower() in club_members
 
     messages = (f'Sorry {candidate}, your name is not on the list.',
-     f'Congratulations {candidate}! You are part of the Null.')
+     f'Congratulations {candidate}! You are part of the ICT Club.')
 
-     document.getElementById('result').innerHTML=messages[member_checker]
+    document.getElementById('result').innerHTML=messages[member_checker]
